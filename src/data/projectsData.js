@@ -16,7 +16,7 @@ export const projectsData = [
     languages: ["Html", "Sass", "Javascript"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/music-player.jpg",
+    img: "./assets/img/music-player.jpg",
     link: "https://lndev-musicplayer.vercel.app",
   },
   {
@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "Effet de Card",
+    title: "Effet de Hover",
     date: "Avril 2021",
     languages: ["Html", "Sass"],
     infos:

@@ -13,17 +13,23 @@ const Navigation = () => {
                 </NavLink>
                 <li className="nav-portfolio">Projets
                     <ul className="nav-projects">
-                        <NavLink to="/project-1" exact className="hover" activeClassName="nav-active">
-                            <li>Projet 1</li>
+                        <NavLink to="/livinnow" exact className="hover" activeClassName="nav-active">
+                            <li>Livinnow</li>
                         </NavLink>
-                        <NavLink to="/project-2" exact className="hover" activeClassName="nav-active">
-                            <li>Projet 2</li>
+                        <NavLink to="/music-player" exact className="hover" activeClassName="nav-active">
+                            <li>Lecteur de Musique</li>
                         </NavLink>
-                        <NavLink to="/project-3" exact className="hover" activeClassName="nav-active">
-                            <li>Projet 3</li>
+                        <NavLink to="/site-cook" exact className="hover" activeClassName="nav-active">
+                            <li>Site de Restaurant</li>
                         </NavLink>
-                        <NavLink to="/project-4" exact className="hover" activeClassName="nav-active">
-                            <li>Projet 4</li>
+                        <NavLink to="/z-shop" exact className="hover" activeClassName="nav-active">
+                            <li>Interface E-Commerce</li>
+                        </NavLink>
+                        <NavLink to="/card-hover-effect" exact className="hover" activeClassName="nav-active">
+                            <li>Effet de Hover</li>
+                        </NavLink>
+                        <NavLink to="/site-sante" exact className="hover" activeClassName="nav-active">
+                            <li>Site Hopital</li>
                         </NavLink>
                     </ul>
                 </li>

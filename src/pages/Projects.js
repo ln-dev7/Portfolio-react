@@ -4,53 +4,79 @@ import Navigation from '../components/Navigation';
 import Logo from '../components/Logo';
 import Project from '../components/Project';
 
-export const Project1 = () => {
+export const Livinnow = () => {
     return(
         <main>
             <div className="project">
                 <Navigation />
                 <Logo />
                 <Project projectNumber={0} />
-                <ButtonsBottom left={'/a-propos'} right={'/project-2'} />
+                <ButtonsBottom left={'/a-propos'} right={'/music-player'} />
             </div>
         </main>
     )
 }
 
-export const Project2 = () => {
+export const MusicPlayer = () => {
     return(
         <main>
             <div className="project">
                 <Navigation />
                 <Logo />
                 <Project projectNumber={1} />
-                <ButtonsBottom left={'/project-1'} right={'/project-3'} />
+                <ButtonsBottom left={'/livinnow'} right={'/site-cook'} />
             </div>
         </main>
     )
 }
 
-export const Project3 = () => {
+export const SiteCook = () => {
     return(
         <main>
             <div className="project">
                 <Navigation />
                 <Logo />
                 <Project projectNumber={2} />
-                <ButtonsBottom left={'/project-2'} right={'/project-4'} />
+                <ButtonsBottom left={'/music-player'} right={'/z-shop'} />
             </div>
         </main>
     )
 }
 
-export const Project4 = () => {
+export const ZShop = () => {
     return(
         <main>
             <div className="project">
                 <Navigation />
                 <Logo />
                 <Project projectNumber={3} />
-                <ButtonsBottom left={'/project-3'} right={'/contact'} />
+                <ButtonsBottom left={'/site-cook'} right={'/card-hover-effect'} />
+            </div>
+        </main>
+    )
+}
+
+export const CardHoverEffect = () => {
+    return(
+        <main>
+            <div className="project">
+                <Navigation />
+                <Logo />
+                <Project projectNumber={4} />
+                <ButtonsBottom left={'/z-shop'} right={'/site-sante'} />
+            </div>
+        </main>
+    )
+}
+
+export const SiteSante = () => {
+    return(
+        <main>
+            <div className="project">
+                <Navigation />
+                <Logo />
+                <Project projectNumber={5} />
+                <ButtonsBottom left={'/card-hover-effect'} right={'/contact'} />
             </div>
         </main>
     )

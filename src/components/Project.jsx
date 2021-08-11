@@ -26,10 +26,10 @@ const Projet = (props) => {
                     <img src={project.img} alt={project.title} />
                 </div>
                 <div className="button-container">
-                        <a href={project.link} className="hover">
-                            <span className="button">Voir le projet</span> 
-                        </a>
-                    </div>
+                    <a href={project.link} className="hover">
+                        <span className="button">Voir le projet</span> 
+                    </a>
+                </div>
             </div>
         </div>
     )

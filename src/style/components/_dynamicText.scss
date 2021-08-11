@@ -32,13 +32,13 @@
     transform: translateZ(200px);
   }
   @keyframes anim {
-    25% {
+    20% {
       transform: translateZ(0px);
       opacity: 1;
     }
-    32% {
+    50% {
       opacity: 0;
-      transform: translateZ(-280px) translateX(200px);
+      transform: translateZ(-10000px) translateX(200px);
     }
   }
 }
