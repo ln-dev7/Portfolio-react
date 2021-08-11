@@ -6,7 +6,7 @@ export const projectsData = [
     languages: ["Html", "Sass", "Javascript"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/livinnow.jpg",
+    img: "./assets/img/1.jpg",
     link: "https://livinnow.vercel.app",
   },
   {
@@ -16,7 +16,7 @@ export const projectsData = [
     languages: ["Html", "Sass", "Javascript"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/music-player.jpg",
+    img: "./assets/img/2.jpg",
     link: "https://lndev-musicplayer.vercel.app",
   },
   {
@@ -26,7 +26,7 @@ export const projectsData = [
     languages: ["Html", "Sass", "Javascript"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/site-cook.jpg",
+    img: "./assets/img/3.jpg",
     link: "https:/lndev-sitecook.vercel.app",
   },
   {
@@ -36,7 +36,7 @@ export const projectsData = [
     languages: ["Html", "Sass", "Javascript"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/z-shop.jpg",
+    img: "./assets/img/4.jpg",
     link: "https://lndev-zshop.vercel.app",
   },
   {
@@ -46,7 +46,7 @@ export const projectsData = [
     languages: ["Html", "Sass"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/card-hover-effect.jpg",
+    img: "./assets/img/5.jpg",
     link: "https://lndev-cardhovereffect.netlify.app",
   },
   {
@@ -56,7 +56,7 @@ export const projectsData = [
     languages: ["Html", "Sass"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/site-sante.jpg",
+    img: "./assets/img/6.jpg",
     link: "https://lndev-lnsante.netlify.app",
   },
 ];
