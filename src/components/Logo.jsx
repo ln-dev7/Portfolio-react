@@ -1,12 +1,9 @@
 import React from 'react';
 
 const Logo = () => {
-    return (
-        <div className="logo">
-            <img src="./SchoolManager.png" alt="" />
-            <h1>BIENVENUS SUR SCHOOL MANAGER !</h1>
-        </div>
-    );
-};
+    return(
+        <span className="logo">LN</span>
+    )
+}
 
 export default Logo;
