@@ -58,6 +58,10 @@
       }
     }
 
+    &:hover .project-main{
+      margin-top: 180px;
+    }
+
     .nav-projects {
       position: absolute;
       visibility: hidden;
@@ -69,7 +73,7 @@
       perspective: 500px;
 
       li {
-        transform: rotatey(30deg) scaleX(1.2);
+        transform: rotatey(45deg) scaleX(1.2);
         transform-origin: center;
         transition: .3s;
       }

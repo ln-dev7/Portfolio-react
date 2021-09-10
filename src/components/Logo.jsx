@@ -1,8 +1,9 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 const Logo = () => {
     return(
-        <span className="logo">LN</span>
+        <motion.span drag onDragEnd className="logo">LN</motion.span>
     )
 }
 

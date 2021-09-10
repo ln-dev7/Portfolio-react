@@ -76,6 +76,11 @@
       display: grid;
       grid-template-rows: repeat(4, 1fr) 100px;
 
+      .form-content-name{
+        position: absolute;
+        opacity: 0;
+      }
+
       input,
       textarea {
         background: none;
@@ -234,15 +239,22 @@
         display: none;
       }
     }
-    .email .content p,
     .phone .content p {
-      transition: 0.25s;
+      transition: 0.25s ease-in;
 
       &:hover {
-        transform: translateX(5px);
+        transform: translateX(10px);
       }
     }
-    
+
+    .email .content p {
+      transition: 0.25s ease-out;
+
+      &:hover {
+        transform: translateX(-10px);
+      }
+    }
+
     .address {
       position: relative;
 

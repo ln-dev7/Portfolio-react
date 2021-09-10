@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { motion } from "framer-motion";
 
-const Navigation = () => {
+const Navigation = (props) => {
+
     return(
-        <div className="navigation">
+        <motion.div drag onDragEnd className="navigation">
             <ul>
                 <NavLink to="/" exact className="hover" activeClassName="nav-active">
                     <li>Acceuil</li>
@@ -11,7 +13,7 @@ const Navigation = () => {
                 <NavLink to="/a-propos" exact className="hover" activeClassName="nav-active">
                     <li>A Propos</li>
                 </NavLink>
-                <li className="nav-portfolio">Projets
+                <li className="nav-portfolio"><p onMouseOver={props.projectHover}>Projets</p>
                     <ul className="nav-projects">
                         <NavLink to="/livinnow" exact className="hover" activeClassName="nav-active">
                             <li>Livinnow</li>
@@ -37,7 +39,7 @@ const Navigation = () => {
                     <li>Contact</li>
                 </NavLink>
             </ul>
-        </div>
+        </motion.div>
     )
 }
 
